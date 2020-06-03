@@ -44,8 +44,6 @@ class MainActivity : AppCompatActivity() {
         lay2.visibility=View.VISIBLE
         var lay3=findViewById<LinearLayout>(R.id.lay3)
         lay3.visibility=View.VISIBLE
-        var rule=findViewById<Button>(R.id.Rule)
-        rule.visibility=View.GONE
     }
     fun winX(){
         var lay1=findViewById<LinearLayout>(R.id.lay1)
